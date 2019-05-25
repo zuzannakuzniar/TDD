@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2bab6856-3ac2-46e5-b830-16e76875dee8" name="Default Changelist" comment="" />
+    <list default="true" id="2bab6856-3ac2-46e5-b830-16e76875dee8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/sample/Hello.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/sample/WalidatorKodówPocztowych.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/sample/WalidatorKodówPocztowych.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/edu/sample/HelloTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/sample/Hello.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/sample/WalidatorKodówPocztowych.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/sample/WalidatorKodówPocztowych.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/edu/sample/HelloTest.class" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -12,11 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/edu/sample/WalidatorKodówPocztowych.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/sample/PrimeFinder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+            <state relative-caret-position="270">
+              <caret line="22" column="20" lean-forward="true" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -24,24 +32,15 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-15">
-              <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/edu/sample/WalidatorKodówPocztowychTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/edu/sample/PrimeFinderTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
-              <caret line="19" column="56" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
+              <caret line="12" column="65" selection-start-line="12" selection-start-column="65" selection-end-line="12" selection-end-column="65" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#315#316#0" expanded="true" />
-                <element signature="e#390#391#0" expanded="true" />
+                <element signature="e#350#351#0" expanded="true" />
+                <element signature="e#417#418#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -52,8 +51,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -65,9 +64,14 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/edu/sample/Hello.java" />
         <option value="$PROJECT_DIR$/src/test/java/edu/sample/HelloTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/sample/WalidatorKodówPocztowych.java" />
-        <option value="$PROJECT_DIR$/src/test/java/edu/sample/WalidatorKodówPocztowychTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/sample/WalidatorKodówPocztowychTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/sample/WalidatorKodówPocztowych.java" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/sample/PrimeTesterTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/sample/PrimeTester.java" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/sample/PrimeFinderTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/sample/WrongAmountException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/sample/PrimeFinder.java" />
       </list>
     </option>
   </component>
@@ -115,7 +119,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -153,11 +157,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558783832089" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558792084196" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
@@ -182,8 +186,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.WalidatorKodówPocztowychTest.testWalidatorNull">
-    <configuration name="WalidatorKodówPocztowychTest.testWalidator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.PrimeFinderTest.testPrimeFinderExceptions">
+    <configuration name="PrimeFinderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TDD" />
       <extension name="coverage">
         <pattern>
@@ -192,14 +196,28 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="edu.sample" />
-      <option name="MAIN_CLASS_NAME" value="edu.sample.WalidatorKodówPocztowychTest" />
-      <option name="METHOD_NAME" value="testWalidator" />
+      <option name="MAIN_CLASS_NAME" value="edu.sample.PrimeFinderTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrimeFinderTest.testPrimeFinder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TDD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.sample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.sample" />
+      <option name="MAIN_CLASS_NAME" value="edu.sample.PrimeFinderTest" />
+      <option name="METHOD_NAME" value="testPrimeFinder(int)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WalidatorKodówPocztowychTest.testWalidator2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PrimeFinderTest.testPrimeFinder1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TDD" />
       <extension name="coverage">
         <pattern>
@@ -208,14 +226,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="edu.sample" />
-      <option name="MAIN_CLASS_NAME" value="edu.sample.WalidatorKodówPocztowychTest" />
-      <option name="METHOD_NAME" value="testWalidator2" />
+      <option name="MAIN_CLASS_NAME" value="edu.sample.PrimeFinderTest" />
+      <option name="METHOD_NAME" value="testPrimeFinder1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WalidatorKodówPocztowychTest.testWalidatorNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PrimeFinderTest.testPrimeFinder5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TDD" />
       <extension name="coverage">
         <pattern>
@@ -224,14 +242,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="edu.sample" />
-      <option name="MAIN_CLASS_NAME" value="edu.sample.WalidatorKodówPocztowychTest" />
-      <option name="METHOD_NAME" value="testWalidatorNull" />
+      <option name="MAIN_CLASS_NAME" value="edu.sample.PrimeFinderTest" />
+      <option name="METHOD_NAME" value="testPrimeFinder5" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WalidatorKodówPocztowychTest.testWalidatorNullString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PrimeFinderTest.testPrimeFinderExceptions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TDD" />
       <extension name="coverage">
         <pattern>
@@ -240,24 +258,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="edu.sample" />
-      <option name="MAIN_CLASS_NAME" value="edu.sample.WalidatorKodówPocztowychTest" />
-      <option name="METHOD_NAME" value="testWalidatorNullString" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WalidatorKodówPocztowychTest.testWalidatorPustyString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TDD" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="edu.sample.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="edu.sample" />
-      <option name="MAIN_CLASS_NAME" value="edu.sample.WalidatorKodówPocztowychTest" />
-      <option name="METHOD_NAME" value="testWalidatorPustyString" />
+      <option name="MAIN_CLASS_NAME" value="edu.sample.PrimeFinderTest" />
+      <option name="METHOD_NAME" value="testPrimeFinderExceptions(int)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -265,11 +267,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.WalidatorKodówPocztowychTest.testWalidatorNull" />
-        <item itemvalue="JUnit.WalidatorKodówPocztowychTest.testWalidatorNullString" />
-        <item itemvalue="JUnit.WalidatorKodówPocztowychTest.testWalidatorPustyString" />
-        <item itemvalue="JUnit.WalidatorKodówPocztowychTest.testWalidator2" />
-        <item itemvalue="JUnit.WalidatorKodówPocztowychTest.testWalidator" />
+        <item itemvalue="JUnit.PrimeFinderTest.testPrimeFinderExceptions" />
+        <item itemvalue="JUnit.PrimeFinderTest.testPrimeFinder" />
+        <item itemvalue="JUnit.PrimeFinderTest.testPrimeFinder1" />
+        <item itemvalue="JUnit.PrimeFinderTest" />
+        <item itemvalue="JUnit.PrimeFinderTest.testPrimeFinder5" />
       </list>
     </recent_temporary>
   </component>
@@ -287,41 +289,80 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="WalidatorKodówPocztowychTest_testWalidator - 2019.05.25 at 12h 49m 06s.xml">
-      <configuration name="WalidatorKodówPocztowychTest.testWalidator" configurationId="JUnit" />
+    <history-entry file="PrimeFinderTest_testPrimeFinder1 - 2019.05.25 at 15h 13m 05s.xml">
+      <configuration name="PrimeFinderTest.testPrimeFinder1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WalidatorKodówPocztowychTest_testWalidator - 2019.05.25 at 12h 49m 28s.xml">
-      <configuration name="WalidatorKodówPocztowychTest.testWalidator" configurationId="JUnit" />
+    <history-entry file="PrimeFinderTest_testPrimeFinder1 - 2019.05.25 at 15h 17m 32s.xml">
+      <configuration name="PrimeFinderTest.testPrimeFinder1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WalidatorKodówPocztowychTest_testWalidator2 - 2019.05.25 at 12h 49m 31s.xml">
-      <configuration name="WalidatorKodówPocztowychTest.testWalidator2" configurationId="JUnit" />
+    <history-entry file="PrimeFinderTest_testPrimeFinder1 - 2019.05.25 at 15h 20m 45s.xml">
+      <configuration name="PrimeFinderTest.testPrimeFinder1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WalidatorKodówPocztowychTest_testWalidatorPustyString - 2019.05.25 at 12h 49m 34s.xml">
-      <configuration name="WalidatorKodówPocztowychTest.testWalidatorPustyString" configurationId="JUnit" />
+    <history-entry file="PrimeFinderTest_testPrimeFinder1 - 2019.05.25 at 15h 24m 08s.xml">
+      <configuration name="PrimeFinderTest.testPrimeFinder1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WalidatorKodówPocztowychTest_testWalidatorPustyString - 2019.05.25 at 12h 49m 38s.xml">
-      <configuration name="WalidatorKodówPocztowychTest.testWalidatorPustyString" configurationId="JUnit" />
+    <history-entry file="PrimeFinderTest_testPrimeFinder1 - 2019.05.25 at 15h 25m 04s.xml">
+      <configuration name="PrimeFinderTest.testPrimeFinder1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WalidatorKodówPocztowychTest_testWalidatorNull - 2019.05.25 at 12h 49m 40s.xml">
-      <configuration name="WalidatorKodówPocztowychTest.testWalidatorNull" configurationId="JUnit" />
+    <history-entry file="PrimeFinderTest_testPrimeFinder1 - 2019.05.25 at 15h 25m 43s.xml">
+      <configuration name="PrimeFinderTest.testPrimeFinder1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WalidatorKodówPocztowychTest_testWalidatorNullString - 2019.05.25 at 12h 49m 47s.xml">
-      <configuration name="WalidatorKodówPocztowychTest.testWalidatorNullString" configurationId="JUnit" />
+    <history-entry file="PrimeFinderTest_testPrimeFinder1 - 2019.05.25 at 15h 26m 04s.xml">
+      <configuration name="PrimeFinderTest.testPrimeFinder1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WalidatorKodówPocztowychTest_testWalidatorNull - 2019.05.25 at 12h 49m 53s.xml">
-      <configuration name="WalidatorKodówPocztowychTest.testWalidatorNull" configurationId="JUnit" />
+    <history-entry file="PrimeFinderTest_testPrimeFinder - 2019.05.25 at 15h 35m 44s.xml">
+      <configuration name="PrimeFinderTest.testPrimeFinder" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WalidatorKodówPocztowychTest_testWalidatorNull - 2019.05.25 at 12h 51m 41s.xml">
-      <configuration name="WalidatorKodówPocztowychTest.testWalidatorNull" configurationId="JUnit" />
+    <history-entry file="PrimeFinderTest_testPrimeFinderExceptions - 2019.05.25 at 15h 38m 05s.xml">
+      <configuration name="PrimeFinderTest.testPrimeFinderExceptions" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WalidatorKodówPocztowychTest_testWalidatorNull - 2019.05.25 at 12h 59m 08s.xml">
-      <configuration name="WalidatorKodówPocztowychTest.testWalidatorNull" configurationId="JUnit" />
+    <history-entry file="PrimeFinderTest_testPrimeFinderExceptions - 2019.05.25 at 15h 46m 28s.xml">
+      <configuration name="PrimeFinderTest.testPrimeFinderExceptions" configurationId="JUnit" />
     </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25302014" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25637585" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4986577" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49932885" weight="0.39943343" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49932885" weight="0.3286119" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3286119" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5013423" side_tool="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3286119" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.3295302" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="PlantUML" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25637585" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -343,12 +384,12 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" visible="true" weight="0.3295302" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.3295302" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="PlantUML" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/sample/Walidator.java" />
@@ -372,8 +413,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/sample/WalidatorKodówPocztowych.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+        <state relative-caret-position="136">
+          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -382,8 +423,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/edu/sample/WalidatorKodówPocztowychTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="19" column="56" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
+        <state relative-caret-position="340">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#315#316#0" expanded="true" />
@@ -394,8 +435,60 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-15">
+        <state relative-caret-position="17">
           <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/sample/PrimeTesterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#342#343#0" expanded="true" />
+            <element signature="e#402#403#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/sample/PrimeFinderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="65" selection-start-line="12" selection-start-column="65" selection-end-line="12" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#350#351#0" expanded="true" />
+            <element signature="e#417#418#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/sample/PrimeTester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/sample/WrongAmountException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
+          <folding>
+            <element signature="e#115#116#0" expanded="true" />
+            <element signature="e#135#136#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/sample/PrimeFinder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="22" column="20" lean-forward="true" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
