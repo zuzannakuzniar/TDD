@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: edu.sample.PrimeFinderTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.162 s <<< FAILURE! - in edu.sample.PrimeFinderTest
+testPrimeFinderExceptions{int}[1]  Time elapsed: 0.054 s  <<< ERROR!
+edu.sample.WrongAmountException: Wrong amount of prime numbers
+	at edu.sample.PrimeFinderTest.testPrimeFinderExceptions(PrimeFinderTest.java:18)
+
+testPrimeFinderExceptions{int}[2]  Time elapsed: 0.001 s  <<< ERROR!
+edu.sample.WrongAmountException: Wrong amount of prime numbers
+	at edu.sample.PrimeFinderTest.testPrimeFinderExceptions(PrimeFinderTest.java:18)
+

@@ -1,2 +1,4 @@
-edu\sample\Hello.class
-edu\sample\WalidatorKodÃ³wPocztowych.class
+edu\sample\WalidatorKodówPocztowych.class
+edu\sample\PrimeTester.class
+edu\sample\WrongAmountException.class
+edu\sample\PrimeFinder.class

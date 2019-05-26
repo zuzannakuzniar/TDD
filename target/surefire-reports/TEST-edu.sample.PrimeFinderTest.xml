@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="edu.sample.HelloTest" time="0.045" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="edu.sample.PrimeFinderTest" time="0.162" tests="7" errors="2" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="user.country" value="PL"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_191\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\HP\AppData\Local\Temp\surefire1171742942247643739\surefirebooter3350623499006055566.jar C:\Users\HP\AppData\Local\Temp\surefire1171742942247643739 2019-05-25T13-49-40_579-jvmRun1 surefire4960345337573936906tmp surefire_05877942558056278527tmp"/>
+    <property name="sun.java.command" value="C:\Users\HP\AppData\Local\Temp\surefire6414884624506967544\surefirebooter8706793812189053308.jar C:\Users\HP\AppData\Local\Temp\surefire6414884624506967544 2019-05-26T10-06-37_623-jvmRun1 surefire1226329902045069740tmp surefire_08498665166489505463tmp"/>
     <property name="surefire.test.class.path" value="C:\Users\HP\Projects\TDD\target\test-classes;C:\Users\HP\Projects\TDD\target\classes;C:\Users\HP\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.4.2\junit-jupiter-engine-5.4.2.jar;C:\Users\HP\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\HP\.m2\repository\org\junit\platform\junit-platform-engine\1.4.2\junit-platform-engine-1.4.2.jar;C:\Users\HP\.m2\repository\org\opentest4j\opentest4j\1.1.1\opentest4j-1.1.1.jar;C:\Users\HP\.m2\repository\org\junit\platform\junit-platform-commons\1.4.2\junit-platform-commons-1.4.2.jar;C:\Users\HP\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.4.2\junit-jupiter-api-5.4.2.jar;C:\Users\HP\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.4.2\junit-jupiter-params-5.4.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\HP"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\HP\AppData\Local\Temp\surefire1171742942247643739\surefirebooter3350623499006055566.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\HP\AppData\Local\Temp\surefire6414884624506967544\surefirebooter8706793812189053308.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_191\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_191\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -46,14 +46,13 @@
     <property name="localRepository" value="C:\Users\HP\.m2\repository"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\HP\AppData\Local\Temp\"/>
-    <property name="idea.version" value="2018.3.1"/>
     <property name="java.version" value="1.8.0_191"/>
     <property name="user.dir" value="C:\Users\HP\Projects\TDD"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="sun.os.patch.level" value=""/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_191\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk1.8.0_191\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Brackets\command;C:\Program Files\nodejs\;C:\Users\HP\AppData\Local\Microsoft\WindowsApps;;C:\Users\HP\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\HP\AppData\Roaming\npm;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_191\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk1.8.0_191\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Brackets\command;C:\Program Files\nodejs\;C:\Program Files\apache-maven-3.6.1\bin;C:\Users\HP\AppData\Local\Microsoft\WindowsApps;;C:\Users\HP\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\HP\AppData\Roaming\npm;."/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="java.vm.version" value="25.191-b12"/>
@@ -61,5 +60,19 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="testSayHello" classname="edu.sample.HelloTest" time="0.006"/>
+  <testcase name="testPrimeFinderExceptions{int}[1]" classname="edu.sample.PrimeFinderTest" time="0.054">
+    <error message="Wrong amount of prime numbers" type="edu.sample.WrongAmountException">edu.sample.WrongAmountException: Wrong amount of prime numbers
+	at edu.sample.PrimeFinderTest.testPrimeFinderExceptions(PrimeFinderTest.java:18)
+</error>
+  </testcase>
+  <testcase name="testPrimeFinderExceptions{int}[2]" classname="edu.sample.PrimeFinderTest" time="0.001">
+    <error message="Wrong amount of prime numbers" type="edu.sample.WrongAmountException">edu.sample.WrongAmountException: Wrong amount of prime numbers
+	at edu.sample.PrimeFinderTest.testPrimeFinderExceptions(PrimeFinderTest.java:18)
+</error>
+  </testcase>
+  <testcase name="testPrimeFinder{int}[1]" classname="edu.sample.PrimeFinderTest" time="0.005"/>
+  <testcase name="testPrimeFinder{int}[2]" classname="edu.sample.PrimeFinderTest" time="0.001"/>
+  <testcase name="testPrimeFinder{int}[3]" classname="edu.sample.PrimeFinderTest" time="0"/>
+  <testcase name="testPrimeFinder{int}[4]" classname="edu.sample.PrimeFinderTest" time="0.001"/>
+  <testcase name="testPrimeFinder{int}[5]" classname="edu.sample.PrimeFinderTest" time="0.044"/>
 </testsuite>

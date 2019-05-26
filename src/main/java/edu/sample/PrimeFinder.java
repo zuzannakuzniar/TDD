@@ -12,7 +12,7 @@ public class PrimeFinder {
         int counter = 0;
         int prime = 2;
         if(number==0 || number <0){
-            throw new WrongAmountException();
+            return list;
         }
         do {
             if (PrimeTester.primeNumber(prime)) {

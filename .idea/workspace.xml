@@ -3,12 +3,20 @@
   <component name="ChangeListManager">
     <list default="true" id="2bab6856-3ac2-46e5-b830-16e76875dee8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/sample/Hello.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/sample/WalidatorKodówPocztowych.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/sample/WalidatorKodówPocztowych.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/edu/sample/HelloTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/sample/Hello.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/sample/WalidatorKodówPocztowych.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/sample/WalidatorKodówPocztowych.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/edu/sample/HelloTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/sample/PrimeFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/sample/PrimeFinder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/sample/WrongAmountException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/sample/WrongAmountException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/sample/PrimeFinder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/sample/PrimeFinder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/sample/WrongAmountException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/sample/WrongAmountException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.sample.HelloTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.sample.WalidatorKodówPocztowychTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.sample.WalidatorKodówPocztowychTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/edu.sample.HelloTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/edu.sample.WalidatorKodówPocztowychTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/edu.sample.WalidatorKodówPocztowychTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/TDD.kotlin_module" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -18,30 +26,48 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/tdd$CollectionServiceTest_testSplit__1_.ic" NAME="CollectionServiceTest.testSplit (1) Coverage Results" MODIFIED="1558868342999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.sample.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/tdd$CollectionServiceTest_testSplit2.ic" NAME="CollectionServiceTest.testSplit2 Coverage Results" MODIFIED="1558868447329" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>edu.sample.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="215" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/edu/sample/PrimeFinder.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Mockito/InputDataService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="22" column="20" lean-forward="true" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+            <state relative-caret-position="255">
+              <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#153#154#0" expanded="true" />
+                <element signature="e#191#192#0" expanded="true" />
+                <element signature="e#223#224#0" expanded="true" />
+                <element signature="e#264#265#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/edu/sample/PrimeFinderTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Mockito/ChatService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="65" selection-start-line="12" selection-start-column="65" selection-end-line="12" selection-end-column="65" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#350#351#0" expanded="true" />
-                <element signature="e#417#418#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="68">
+              <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Mockito/ChatServiceTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-237">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -51,8 +77,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
+        <option value="Enum" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -64,14 +91,24 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/edu/sample/Hello.java" />
         <option value="$PROJECT_DIR$/src/test/java/edu/sample/HelloTest.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/edu/sample/WalidatorKodówPocztowychTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/sample/WalidatorKodówPocztowych.java" />
         <option value="$PROJECT_DIR$/src/test/java/edu/sample/PrimeTesterTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/sample/PrimeTester.java" />
         <option value="$PROJECT_DIR$/src/test/java/edu/sample/PrimeFinderTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/sample/WrongAmountException.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/sample/PrimeFinder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/sample/WrongAmountException.java" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/sample/CollectionServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/sample/CollectionService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/sample/Day.java" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/sample/WorkDayHelperTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/sample/WorkDayHelper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Mockito/FileNameGenerator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Mockito/InputDataService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Mockito/OutputDataService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Mockito/ChatService.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/Mockito/ChatServiceTest.java" />
       </list>
     </option>
   </component>
@@ -145,14 +182,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="tdd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TDD" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sample" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -161,17 +190,21 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558792084196" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558878301961" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="Mockito" />
       <recent name="edu.sample" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="edu.sample" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -186,22 +219,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PrimeFinderTest.testPrimeFinderExceptions">
-    <configuration name="PrimeFinderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ChatServiceTest">
+    <configuration name="ChatServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TDD" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="edu.sample.*" />
+          <option name="PATTERN" value="Mockito.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="edu.sample" />
-      <option name="MAIN_CLASS_NAME" value="edu.sample.PrimeFinderTest" />
+      <option name="PACKAGE_NAME" value="Mockito" />
+      <option name="MAIN_CLASS_NAME" value="Mockito.ChatServiceTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrimeFinderTest.testPrimeFinder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WorkDayHelperTest.testIsWorkingDay2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TDD" />
       <extension name="coverage">
         <pattern>
@@ -210,14 +243,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="edu.sample" />
-      <option name="MAIN_CLASS_NAME" value="edu.sample.PrimeFinderTest" />
-      <option name="METHOD_NAME" value="testPrimeFinder(int)" />
+      <option name="MAIN_CLASS_NAME" value="edu.sample.WorkDayHelperTest" />
+      <option name="METHOD_NAME" value="testIsWorkingDay2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrimeFinderTest.testPrimeFinder1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WorkDayHelperTest.testLastDay" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TDD" />
       <extension name="coverage">
         <pattern>
@@ -226,14 +259,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="edu.sample" />
-      <option name="MAIN_CLASS_NAME" value="edu.sample.PrimeFinderTest" />
-      <option name="METHOD_NAME" value="testPrimeFinder1" />
+      <option name="MAIN_CLASS_NAME" value="edu.sample.WorkDayHelperTest" />
+      <option name="METHOD_NAME" value="testLastDay" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrimeFinderTest.testPrimeFinder5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WorkDayHelperTest.testLastDay1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TDD" />
       <extension name="coverage">
         <pattern>
@@ -242,14 +275,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="edu.sample" />
-      <option name="MAIN_CLASS_NAME" value="edu.sample.PrimeFinderTest" />
-      <option name="METHOD_NAME" value="testPrimeFinder5" />
+      <option name="MAIN_CLASS_NAME" value="edu.sample.WorkDayHelperTest" />
+      <option name="METHOD_NAME" value="testLastDay1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrimeFinderTest.testPrimeFinderExceptions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WorkDayHelperTest.testLastDay2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TDD" />
       <extension name="coverage">
         <pattern>
@@ -258,20 +291,27 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="edu.sample" />
-      <option name="MAIN_CLASS_NAME" value="edu.sample.PrimeFinderTest" />
-      <option name="METHOD_NAME" value="testPrimeFinderExceptions(int)" />
+      <option name="MAIN_CLASS_NAME" value="edu.sample.WorkDayHelperTest" />
+      <option name="METHOD_NAME" value="testLastDay2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="JUnit.WorkDayHelperTest.testIsWorkingDay2" />
+      <item itemvalue="JUnit.WorkDayHelperTest.testLastDay" />
+      <item itemvalue="JUnit.WorkDayHelperTest.testLastDay1" />
+      <item itemvalue="JUnit.WorkDayHelperTest.testLastDay2" />
+      <item itemvalue="JUnit.ChatServiceTest" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PrimeFinderTest.testPrimeFinderExceptions" />
-        <item itemvalue="JUnit.PrimeFinderTest.testPrimeFinder" />
-        <item itemvalue="JUnit.PrimeFinderTest.testPrimeFinder1" />
-        <item itemvalue="JUnit.PrimeFinderTest" />
-        <item itemvalue="JUnit.PrimeFinderTest.testPrimeFinder5" />
+        <item itemvalue="JUnit.ChatServiceTest" />
+        <item itemvalue="JUnit.WorkDayHelperTest.testLastDay2" />
+        <item itemvalue="JUnit.WorkDayHelperTest.testLastDay1" />
+        <item itemvalue="JUnit.WorkDayHelperTest.testLastDay" />
+        <item itemvalue="JUnit.WorkDayHelperTest.testIsWorkingDay2" />
       </list>
     </recent_temporary>
   </component>
@@ -289,35 +329,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PrimeFinderTest_testPrimeFinder1 - 2019.05.25 at 15h 13m 05s.xml">
-      <configuration name="PrimeFinderTest.testPrimeFinder1" configurationId="JUnit" />
+    <history-entry file="CollectionServiceTest_testSplit_(1) - 2019.05.26 at 13h 13m 12s.xml">
+      <configuration name="CollectionServiceTest.testSplit (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PrimeFinderTest_testPrimeFinder1 - 2019.05.25 at 15h 17m 32s.xml">
-      <configuration name="PrimeFinderTest.testPrimeFinder1" configurationId="JUnit" />
+    <history-entry file="CollectionServiceTest_testSplit_(1) - 2019.05.26 at 13h 13m 30s.xml">
+      <configuration name="CollectionServiceTest.testSplit (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PrimeFinderTest_testPrimeFinder1 - 2019.05.25 at 15h 20m 45s.xml">
-      <configuration name="PrimeFinderTest.testPrimeFinder1" configurationId="JUnit" />
+    <history-entry file="WorkDayHelperTest_testIsWorkingDay - 2019.05.26 at 14h 56m 09s.xml">
+      <configuration name="WorkDayHelperTest.testIsWorkingDay" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PrimeFinderTest_testPrimeFinder1 - 2019.05.25 at 15h 24m 08s.xml">
-      <configuration name="PrimeFinderTest.testPrimeFinder1" configurationId="JUnit" />
+    <history-entry file="WorkDayHelperTest_testIsWorkingDay2 - 2019.05.26 at 15h 08m 22s.xml">
+      <configuration name="WorkDayHelperTest.testIsWorkingDay2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PrimeFinderTest_testPrimeFinder1 - 2019.05.25 at 15h 25m 04s.xml">
-      <configuration name="PrimeFinderTest.testPrimeFinder1" configurationId="JUnit" />
+    <history-entry file="WorkDayHelperTest_testLastDay - 2019.05.26 at 15h 08m 28s.xml">
+      <configuration name="WorkDayHelperTest.testLastDay" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PrimeFinderTest_testPrimeFinder1 - 2019.05.25 at 15h 25m 43s.xml">
-      <configuration name="PrimeFinderTest.testPrimeFinder1" configurationId="JUnit" />
+    <history-entry file="WorkDayHelperTest_testLastDay - 2019.05.26 at 15h 09m 00s.xml">
+      <configuration name="WorkDayHelperTest.testLastDay" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PrimeFinderTest_testPrimeFinder1 - 2019.05.25 at 15h 26m 04s.xml">
-      <configuration name="PrimeFinderTest.testPrimeFinder1" configurationId="JUnit" />
+    <history-entry file="WorkDayHelperTest_testLastDay1 - 2019.05.26 at 15h 12m 30s.xml">
+      <configuration name="WorkDayHelperTest.testLastDay1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PrimeFinderTest_testPrimeFinder - 2019.05.25 at 15h 35m 44s.xml">
-      <configuration name="PrimeFinderTest.testPrimeFinder" configurationId="JUnit" />
+    <history-entry file="WorkDayHelperTest_testLastDay1 - 2019.05.26 at 15h 13m 08s.xml">
+      <configuration name="WorkDayHelperTest.testLastDay1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PrimeFinderTest_testPrimeFinderExceptions - 2019.05.25 at 15h 38m 05s.xml">
-      <configuration name="PrimeFinderTest.testPrimeFinderExceptions" configurationId="JUnit" />
+    <history-entry file="WorkDayHelperTest_testLastDay2 - 2019.05.26 at 15h 13m 12s.xml">
+      <configuration name="WorkDayHelperTest.testLastDay2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PrimeFinderTest_testPrimeFinderExceptions - 2019.05.25 at 15h 46m 28s.xml">
-      <configuration name="PrimeFinderTest.testPrimeFinderExceptions" configurationId="JUnit" />
+    <history-entry file="ChatServiceTest - 2019.05.26 at 15h 45m 14s.xml">
+      <configuration name="ChatServiceTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -349,8 +389,9 @@
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49932885" weight="0.3286119" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3286119" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5013423" side_tool="true" weight="0.3286119" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3286119" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3286119" />
+      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.3295302" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -371,13 +412,13 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4986577" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49932885" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49932885" weight="0.3286119" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3286119" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5013423" side_tool="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -433,13 +474,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/edu/sample/PrimeTesterTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -452,10 +486,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/sample/PrimeTester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/edu/sample/PrimeFinderTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="65" selection-start-line="12" selection-start-column="65" selection-end-line="12" selection-end-column="65" />
+        <state relative-caret-position="323">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#350#351#0" expanded="true" />
@@ -464,31 +505,123 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/sample/PrimeTester.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/sample/PrimeFinder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        <state relative-caret-position="238">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/sample/WrongAmountException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
+          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
           <folding>
             <element signature="e#115#116#0" expanded="true" />
-            <element signature="e#135#136#0" expanded="true" />
+            <element signature="e#169#170#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/sample/PrimeFinder.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/sample/CollectionServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="22" column="20" lean-forward="true" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+        <state relative-caret-position="331">
+          <caret line="62" column="55" lean-forward="true" selection-start-line="62" selection-start-column="55" selection-end-line="62" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/sample/CollectionService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="45" column="26" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/sample/Day.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="12" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/sample/WorkDayHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="68" selection-start-line="22" selection-start-column="68" selection-end-line="22" selection-end-column="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/sample/WorkDayHelperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="41" column="53" lean-forward="true" selection-start-line="41" selection-start-column="53" selection-end-line="41" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Mockito/FileNameGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
+          <folding>
+            <element signature="e#100#101#0" expanded="true" />
+            <element signature="e#151#152#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Mockito/OutputDataService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Mockito/ChatService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1109">
+          <caret line="79" column="10" selection-start-line="79" selection-start-column="10" selection-end-line="79" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Mockito/InputDataService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding>
+            <element signature="e#153#154#0" expanded="true" />
+            <element signature="e#191#192#0" expanded="true" />
+            <element signature="e#223#224#0" expanded="true" />
+            <element signature="e#264#265#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Mockito/ChatServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-237">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
